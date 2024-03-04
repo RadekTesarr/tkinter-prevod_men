@@ -19,5 +19,8 @@ czk_label.grid(row=0, column=1)
 result_label = Label(text="0", font=("Arial", 15))
 result_label.grid(row=1, column=0)
 
+eur_label = Label(text="EUR", font=("Arial", 15))
+eur_label.grid(row=1, column=1)
+
 # Main cycle
 root.mainloop()
