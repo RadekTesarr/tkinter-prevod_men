@@ -7,6 +7,9 @@ root.minsize(200,200)
 root.resizable(False, False)
 
 # 1 eur = 25,38
+# Funktion
+def convert_currency():
+    amount_eur = float(amount_input.get()) / 24.38
 
 # User input
 amount_input = Entry(width=10, font=("Arial", 15))
@@ -23,7 +26,7 @@ eur_label = Label(text="EUR", font=("Arial", 15))
 eur_label.grid(row=1, column=1)
 
 # Button
-count_button = Button(text="Přepočítat", font=("Arial", 15))
+count_button = Button(text="Přepočítat", font=("Arial", 15), command=convert_currency)
 count_button.grid(row=0, column=2)
 
 # Main cycle
