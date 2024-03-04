@@ -10,6 +10,7 @@ root.resizable(False, False)
 # Funktion
 def convert_currency():
     amount_eur = float(amount_input.get()) / 24.38
+    result_label["text"] = round(amount_eur, 2)
 
 # User input
 amount_input = Entry(width=10, font=("Arial", 15))
