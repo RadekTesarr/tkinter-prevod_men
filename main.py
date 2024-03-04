@@ -22,5 +22,9 @@ result_label.grid(row=1, column=0)
 eur_label = Label(text="EUR", font=("Arial", 15))
 eur_label.grid(row=1, column=1)
 
+# Button
+count_button = Button(text="Přepočítat", font=("Arial", 15))
+count_button.grid(row=0, column=2)
+
 # Main cycle
 root.mainloop()
