@@ -16,5 +16,8 @@ amount_input.grid(row=0, column=0)
 czk_label = Label(text="CZK", font=("Arial", 15))
 czk_label.grid(row=0, column=1)
 
+result_label = Label(text="0", font=("Arial", 15))
+result_label.grid(row=1, column=0)
+
 # Main cycle
 root.mainloop()
