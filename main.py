@@ -9,7 +9,7 @@ root.config(bg="#003399")
 root.iconbitmap("icon.ico")
 
 
-# Funktion
+# Function
 def convert_currency():
     amount_eur = float(amount_input.get()) / 25.38
     result_label["text"] = round(amount_eur, 2)
